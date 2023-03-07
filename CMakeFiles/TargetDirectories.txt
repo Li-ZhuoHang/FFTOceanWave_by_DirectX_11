@@ -1,0 +1,21 @@
+D:/Source/build/CMakeFiles/INSTALL.dir
+D:/Source/build/CMakeFiles/ALL_BUILD.dir
+D:/Source/build/CMakeFiles/ZERO_CHECK.dir
+D:/Source/build/assimp/CMakeFiles/UpdateAssimpLibsDebugSymbolsAndDLLs.dir
+D:/Source/build/assimp/CMakeFiles/INSTALL.dir
+D:/Source/build/assimp/CMakeFiles/ALL_BUILD.dir
+D:/Source/build/assimp/contrib/zlib/CMakeFiles/zlibstatic.dir
+D:/Source/build/assimp/contrib/zlib/CMakeFiles/INSTALL.dir
+D:/Source/build/assimp/contrib/zlib/CMakeFiles/ALL_BUILD.dir
+D:/Source/build/assimp/code/CMakeFiles/assimp.dir
+D:/Source/build/assimp/code/CMakeFiles/INSTALL.dir
+D:/Source/build/ImGui/CMakeFiles/ImGui.dir
+D:/Source/build/ImGui/CMakeFiles/INSTALL.dir
+D:/Source/build/Demos/CMakeFiles/INSTALL.dir
+D:/Source/build/Demos/Ocean Simulation/CMakeFiles/Ocean_Simulation.dir
+D:/Source/build/Demos/Ocean Simulation/CMakeFiles/INSTALL.dir
+D:/Source/build/Demos/Common/CMakeFiles/Common.dir
+D:/Source/build/Demos/Common/CMakeFiles/INSTALL.dir
+D:/Source/build/Project Archive/CMakeFiles/INSTALL.dir
+D:/Source/build/Project Archive/Mouse and Keyboard/CMakeFiles/Mouse_and_Keyboard.dir
+D:/Source/build/Project Archive/Mouse and Keyboard/CMakeFiles/INSTALL.dir

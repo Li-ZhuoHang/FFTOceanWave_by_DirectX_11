@@ -1,0 +1,91 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="D:\Source\Demos\Ocean Simulation\BasicEffect.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Source\Demos\Ocean Simulation\GameApp.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Source\Demos\Ocean Simulation\Main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Source\Demos\Ocean Simulation\Waves.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="D:\Source\Demos\Ocean Simulation\Effects.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Source\Demos\Ocean Simulation\GameApp.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Source\Demos\Ocean Simulation\Waves.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\Source\Demos\Ocean Simulation\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <FXCompile Include="D:\Source\Demos\Ocean Simulation\Shaders\AfterProcess_CS.hlsl">
+      <Filter>Shaders</Filter>
+    </FXCompile>
+    <FXCompile Include="D:\Source\Demos\Ocean Simulation\Shaders\Basic_PS.hlsl">
+      <Filter>Shaders</Filter>
+    </FXCompile>
+    <FXCompile Include="D:\Source\Demos\Ocean Simulation\Shaders\Basic_VS.hlsl">
+      <Filter>Shaders</Filter>
+    </FXCompile>
+    <FXCompile Include="D:\Source\Demos\Ocean Simulation\Shaders\FFT_CS.hlsl">
+      <Filter>Shaders</Filter>
+    </FXCompile>
+    <FXCompile Include="D:\Source\Demos\Ocean Simulation\Shaders\GerstnerWave_CS.hlsl">
+      <Filter>Shaders</Filter>
+    </FXCompile>
+    <FXCompile Include="D:\Source\Demos\Ocean Simulation\Shaders\OceanPrecompute_CS.hlsl">
+      <Filter>Shaders</Filter>
+    </FXCompile>
+    <FXCompile Include="D:\Source\Demos\Ocean Simulation\Shaders\OceanUpdate_CS.hlsl">
+      <Filter>Shaders</Filter>
+    </FXCompile>
+    <FXCompile Include="D:\Source\Demos\Ocean Simulation\Shaders\PostProcess_CS.hlsl">
+      <Filter>Shaders</Filter>
+    </FXCompile>
+    <FXCompile Include="D:\Source\Demos\Ocean Simulation\Shaders\WavesDisturb_CS.hlsl">
+      <Filter>Shaders</Filter>
+    </FXCompile>
+    <FXCompile Include="D:\Source\Demos\Ocean Simulation\Shaders\WavesUpdate_CS.hlsl">
+      <Filter>Shaders</Filter>
+    </FXCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="D:\Source\Demos\Ocean Simulation\Shaders\Basic.hlsli">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="D:\Source\Demos\Ocean Simulation\Shaders\FFT.hlsli">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="D:\Source\Demos\Ocean Simulation\Shaders\LightHelper.hlsli">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="D:\Source\Demos\Ocean Simulation\Shaders\OceanCompute.hlsli">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="D:\Source\Demos\Ocean Simulation\Shaders\Waves.hlsli">
+      <Filter>Shaders</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{628836B4-ABF9-39B4-882D-7D5CAE9A77B3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shaders">
+      <UniqueIdentifier>{6693B118-AF9C-304D-B670-803C5686645B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{D054F696-6E96-3F37-834D-17016FD23D90}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,556 @@
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/CMakeDetermineSystem.cmake:204 (message)"
+      - "CMakeLists.txt:30 (project)"
+    message: |
+      The system is: Windows - 10.0.19044 - AMD64
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:30 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+      Compiler:  
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      用于 .NET Framework 的 Microsoft (R) 生成引擎版本 16.11.2+f32259642
+      版权所有(C) Microsoft Corporation。保留所有权利。
+      
+      生成启动时间为 2023/3/4 21:04:12。
+      节点 1 上的项目“D:\\Source\\build\\CMakeFiles\\3.26.0-rc5\\CompilerIdC\\CompilerIdC.vcxproj”(默认目标)。
+      PrepareForBuild:
+        正在创建目录“Debug\\”。
+        正在创建目录“Debug\\CompilerIdC.tlog\\”。
+      InitializeBuildStatus:
+        正在创建“Debug\\CompilerIdC.tlog\\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+      ClCompile:
+        E:\\Vs\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\CL.exe /c /nologo /W0 /WX- /diagnostics:column /Od /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\\\" /Fd"Debug\\vc142.pdb" /external:W0 /Gd /TC /FC /errorReport:queue CMakeCCompilerId.c
+        CMakeCCompilerId.c
+      Link:
+        E:\\Vs\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:".\\CompilerIdC.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\\CompilerIdC.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\\CompilerIdC.lib" /MACHINE:X64 Debug\\CMakeCCompilerId.obj
+        CompilerIdC.vcxproj -> D:\\Source\\build\\CMakeFiles\\3.26.0-rc5\\CompilerIdC\\CompilerIdC.exe
+      PostBuildEvent:
+        for %%i in (cl.exe) do @echo CMAKE_C_COMPILER=%%~$PATH:i
+        :VCEnd
+        CMAKE_C_COMPILER=E:\\Vs\\VC\\Tools\\MSVC\\14.29.30133\\bin\\Hostx64\\x64\\cl.exe
+      FinalizeBuildStatus:
+        正在删除文件“Debug\\CompilerIdC.tlog\\unsuccessfulbuild”。
+        正在对“Debug\\CompilerIdC.tlog\\CompilerIdC.lastbuildstate”执行 Touch 任务。
+      已完成生成项目“D:\\Source\\build\\CMakeFiles\\3.26.0-rc5\\CompilerIdC\\CompilerIdC.vcxproj”(默认目标)的操作。
+      
+      已成功生成。
+          0 个警告
+          0 个错误
+      
+      已用时间 00:00:02.09
+      
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.exe"
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.vcxproj"
+      
+      The C compiler identification is MSVC, found in:
+        D:/Source/build/CMakeFiles/3.26.0-rc5/CompilerIdC/CompilerIdC.exe
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:30 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+      Compiler:  
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      用于 .NET Framework 的 Microsoft (R) 生成引擎版本 16.11.2+f32259642
+      版权所有(C) Microsoft Corporation。保留所有权利。
+      
+      生成启动时间为 2023/3/4 21:04:15。
+      节点 1 上的项目“D:\\Source\\build\\CMakeFiles\\3.26.0-rc5\\CompilerIdCXX\\CompilerIdCXX.vcxproj”(默认目标)。
+      PrepareForBuild:
+        正在创建目录“Debug\\”。
+        正在创建目录“Debug\\CompilerIdCXX.tlog\\”。
+      InitializeBuildStatus:
+        正在创建“Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+      ClCompile:
+        E:\\Vs\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\CL.exe /c /nologo /W0 /WX- /diagnostics:column /Od /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\\\" /Fd"Debug\\vc142.pdb" /external:W0 /Gd /TP /FC /errorReport:queue CMakeCXXCompilerId.cpp
+        CMakeCXXCompilerId.cpp
+      Link:
+        E:\\Vs\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:".\\CompilerIdCXX.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\\CompilerIdCXX.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\\CompilerIdCXX.lib" /MACHINE:X64 Debug\\CMakeCXXCompilerId.obj
+        CompilerIdCXX.vcxproj -> D:\\Source\\build\\CMakeFiles\\3.26.0-rc5\\CompilerIdCXX\\CompilerIdCXX.exe
+      PostBuildEvent:
+        for %%i in (cl.exe) do @echo CMAKE_CXX_COMPILER=%%~$PATH:i
+        :VCEnd
+        CMAKE_CXX_COMPILER=E:\\Vs\\VC\\Tools\\MSVC\\14.29.30133\\bin\\Hostx64\\x64\\cl.exe
+      FinalizeBuildStatus:
+        正在删除文件“Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild”。
+        正在对“Debug\\CompilerIdCXX.tlog\\CompilerIdCXX.lastbuildstate”执行 Touch 任务。
+      已完成生成项目“D:\\Source\\build\\CMakeFiles\\3.26.0-rc5\\CompilerIdCXX\\CompilerIdCXX.vcxproj”(默认目标)的操作。
+      
+      已成功生成。
+          0 个警告
+          0 个错误
+      
+      已用时间 00:00:01.61
+      
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.exe"
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.vcxproj"
+      
+      The CXX compiler identification is MSVC, found in:
+        D:/Source/build/CMakeFiles/3.26.0-rc5/CompilerIdCXX/CompilerIdCXX.exe
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/CMakeDetermineCompilerABI.cmake:57 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:30 (project)"
+    checks:
+      - "Detecting C compiler ABI info"
+    directories:
+      source: "D:/Source/build/CMakeFiles/CMakeScratch/TryCompile-mygx1l"
+      binary: "D:/Source/build/CMakeFiles/CMakeScratch/TryCompile-mygx1l"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+      CMAKE_C_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+    buildResult:
+      variable: "CMAKE_C_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: D:/Source/build/CMakeFiles/CMakeScratch/TryCompile-mygx1l
+        
+        Run Build Command(s):E:/Vs/MSBuild/Current/Bin/MSBuild.exe cmTC_22557.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:n && 用于 .NET Framework 的 Microsoft (R) 生成引擎版本 16.11.2+f32259642
+        版权所有(C) Microsoft Corporation。保留所有权利。
+        
+        生成启动时间为 2023/3/4 21:04:17。
+        节点 1 上的项目“D:\\Source\\build\\CMakeFiles\\CMakeScratch\\TryCompile-mygx1l\\cmTC_22557.vcxproj”(默认目标)。
+        PrepareForBuild:
+          正在创建目录“cmTC_22557.dir\\Debug\\”。
+          正在创建目录“D:\\Source\\build\\CMakeFiles\\CMakeScratch\\TryCompile-mygx1l\\Debug\\”。
+          正在创建目录“cmTC_22557.dir\\Debug\\cmTC_22557.tlog\\”。
+        InitializeBuildStatus:
+          正在创建“cmTC_22557.dir\\Debug\\cmTC_22557.tlog\\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+        ClCompile:
+          E:\\Vs\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_22557.dir\\Debug\\\\" /Fd"cmTC_22557.dir\\Debug\\vc142.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.26\\Modules\\CMakeCCompilerABI.c"
+          用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.29.30145 版
+          版权所有(C) Microsoft Corporation。保留所有权利。
+          CMakeCCompilerABI.c
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_22557.dir\\Debug\\\\" /Fd"cmTC_22557.dir\\Debug\\vc142.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.26\\Modules\\CMakeCCompilerABI.c"
+        Link:
+          E:\\Vs\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"D:\\Source\\build\\CMakeFiles\\CMakeScratch\\TryCompile-mygx1l\\Debug\\cmTC_22557.exe" /INCREMENTAL /ILK:"cmTC_22557.dir\\Debug\\cmTC_22557.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/Source/build/CMakeFiles/CMakeScratch/TryCompile-mygx1l/Debug/cmTC_22557.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/Source/build/CMakeFiles/CMakeScratch/TryCompile-mygx1l/Debug/cmTC_22557.lib" /MACHINE:X64  /machine:x64 cmTC_22557.dir\\Debug\\CMakeCCompilerABI.obj
+          cmTC_22557.vcxproj -> D:\\Source\\build\\CMakeFiles\\CMakeScratch\\TryCompile-mygx1l\\Debug\\cmTC_22557.exe
+        FinalizeBuildStatus:
+          正在删除文件“cmTC_22557.dir\\Debug\\cmTC_22557.tlog\\unsuccessfulbuild”。
+          正在对“cmTC_22557.dir\\Debug\\cmTC_22557.tlog\\cmTC_22557.lastbuildstate”执行 Touch 任务。
+        已完成生成项目“D:\\Source\\build\\CMakeFiles\\CMakeScratch\\TryCompile-mygx1l\\cmTC_22557.vcxproj”(默认目标)的操作。
+        
+        已成功生成。
+            0 个警告
+            0 个错误
+        
+        已用时间 00:00:01.43
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/CMakeDetermineCompilerABI.cmake:57 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:30 (project)"
+    checks:
+      - "Detecting CXX compiler ABI info"
+    directories:
+      source: "D:/Source/build/CMakeFiles/CMakeScratch/TryCompile-9a3z5c"
+      binary: "D:/Source/build/CMakeFiles/CMakeScratch/TryCompile-9a3z5c"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /W3 /GR /EHsc"
+      CMAKE_CXX_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+    buildResult:
+      variable: "CMAKE_CXX_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: D:/Source/build/CMakeFiles/CMakeScratch/TryCompile-9a3z5c
+        
+        Run Build Command(s):E:/Vs/MSBuild/Current/Bin/MSBuild.exe cmTC_692fd.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:n && 用于 .NET Framework 的 Microsoft (R) 生成引擎版本 16.11.2+f32259642
+        版权所有(C) Microsoft Corporation。保留所有权利。
+        
+        生成启动时间为 2023/3/4 21:04:19。
+        节点 1 上的项目“D:\\Source\\build\\CMakeFiles\\CMakeScratch\\TryCompile-9a3z5c\\cmTC_692fd.vcxproj”(默认目标)。
+        PrepareForBuild:
+          正在创建目录“cmTC_692fd.dir\\Debug\\”。
+          正在创建目录“D:\\Source\\build\\CMakeFiles\\CMakeScratch\\TryCompile-9a3z5c\\Debug\\”。
+          正在创建目录“cmTC_692fd.dir\\Debug\\cmTC_692fd.tlog\\”。
+        InitializeBuildStatus:
+          正在创建“cmTC_692fd.dir\\Debug\\cmTC_692fd.tlog\\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+        ClCompile:
+          E:\\Vs\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_692fd.dir\\Debug\\\\" /Fd"cmTC_692fd.dir\\Debug\\vc142.pdb" /external:W3 /Gd /TP /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.26\\Modules\\CMakeCXXCompilerABI.cpp"
+          用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.29.30145 版
+          版权所有(C) Microsoft Corporation。保留所有权利。
+          CMakeCXXCompilerABI.cpp
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_692fd.dir\\Debug\\\\" /Fd"cmTC_692fd.dir\\Debug\\vc142.pdb" /external:W3 /Gd /TP /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.26\\Modules\\CMakeCXXCompilerABI.cpp"
+        Link:
+          E:\\Vs\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"D:\\Source\\build\\CMakeFiles\\CMakeScratch\\TryCompile-9a3z5c\\Debug\\cmTC_692fd.exe" /INCREMENTAL /ILK:"cmTC_692fd.dir\\Debug\\cmTC_692fd.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/Source/build/CMakeFiles/CMakeScratch/TryCompile-9a3z5c/Debug/cmTC_692fd.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/Source/build/CMakeFiles/CMakeScratch/TryCompile-9a3z5c/Debug/cmTC_692fd.lib" /MACHINE:X64  /machine:x64 cmTC_692fd.dir\\Debug\\CMakeCXXCompilerABI.obj
+          cmTC_692fd.vcxproj -> D:\\Source\\build\\CMakeFiles\\CMakeScratch\\TryCompile-9a3z5c\\Debug\\cmTC_692fd.exe
+        FinalizeBuildStatus:
+          正在删除文件“cmTC_692fd.dir\\Debug\\cmTC_692fd.tlog\\unsuccessfulbuild”。
+          正在对“cmTC_692fd.dir\\Debug\\cmTC_692fd.tlog\\cmTC_692fd.lastbuildstate”执行 Touch 任务。
+        已完成生成项目“D:\\Source\\build\\CMakeFiles\\CMakeScratch\\TryCompile-9a3z5c\\cmTC_692fd.vcxproj”(默认目标)的操作。
+        
+        已成功生成。
+            0 个警告
+            0 个错误
+        
+        已用时间 00:00:01.59
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/CheckIncludeFile.cmake:95 (try_compile)"
+      - "assimp/contrib/zlib/CMakeLists.txt:35 (check_include_file)"
+    checks:
+      - "Looking for sys/types.h"
+    directories:
+      source: "D:/Source/build/CMakeFiles/CMakeScratch/TryCompile-uknrpt"
+      binary: "D:/Source/build/CMakeFiles/CMakeScratch/TryCompile-uknrpt"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+      CMAKE_C_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "D:/Source/assimp/cmake-modules"
+    buildResult:
+      variable: "HAVE_SYS_TYPES_H"
+      cached: true
+      stdout: |
+        Change Dir: D:/Source/build/CMakeFiles/CMakeScratch/TryCompile-uknrpt
+        
+        Run Build Command(s):E:/Vs/MSBuild/Current/Bin/MSBuild.exe cmTC_33a88.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:n && 用于 .NET Framework 的 Microsoft (R) 生成引擎版本 16.11.2+f32259642
+        版权所有(C) Microsoft Corporation。保留所有权利。
+        
+        生成启动时间为 2023/3/4 21:04:22。
+        节点 1 上的项目“D:\\Source\\build\\CMakeFiles\\CMakeScratch\\TryCompile-uknrpt\\cmTC_33a88.vcxproj”(默认目标)。
+        PrepareForBuild:
+          正在创建目录“cmTC_33a88.dir\\Debug\\”。
+          正在创建目录“D:\\Source\\build\\CMakeFiles\\CMakeScratch\\TryCompile-uknrpt\\Debug\\”。
+          正在创建目录“cmTC_33a88.dir\\Debug\\cmTC_33a88.tlog\\”。
+        InitializeBuildStatus:
+          正在创建“cmTC_33a88.dir\\Debug\\cmTC_33a88.tlog\\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+        ClCompile:
+          E:\\Vs\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_33a88.dir\\Debug\\\\" /Fd"cmTC_33a88.dir\\Debug\\vc142.pdb" /external:W3 /Gd /TC /errorReport:queue "D:\\Source\\build\\CMakeFiles\\CMakeScratch\\TryCompile-uknrpt\\CheckIncludeFile.c"
+          用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.29.30145 版
+          版权所有(C) Microsoft Corporation。保留所有权利。
+          CheckIncludeFile.c
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_33a88.dir\\Debug\\\\" /Fd"cmTC_33a88.dir\\Debug\\vc142.pdb" /external:W3 /Gd /TC /errorReport:queue "D:\\Source\\build\\CMakeFiles\\CMakeScratch\\TryCompile-uknrpt\\CheckIncludeFile.c"
+        Link:
+          E:\\Vs\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"D:\\Source\\build\\CMakeFiles\\CMakeScratch\\TryCompile-uknrpt\\Debug\\cmTC_33a88.exe" /INCREMENTAL /ILK:"cmTC_33a88.dir\\Debug\\cmTC_33a88.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/Source/build/CMakeFiles/CMakeScratch/TryCompile-uknrpt/Debug/cmTC_33a88.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/Source/build/CMakeFiles/CMakeScratch/TryCompile-uknrpt/Debug/cmTC_33a88.lib" /MACHINE:X64  /machine:x64 cmTC_33a88.dir\\Debug\\CheckIncludeFile.obj
+          cmTC_33a88.vcxproj -> D:\\Source\\build\\CMakeFiles\\CMakeScratch\\TryCompile-uknrpt\\Debug\\cmTC_33a88.exe
+        FinalizeBuildStatus:
+          正在删除文件“cmTC_33a88.dir\\Debug\\cmTC_33a88.tlog\\unsuccessfulbuild”。
+          正在对“cmTC_33a88.dir\\Debug\\cmTC_33a88.tlog\\cmTC_33a88.lastbuildstate”执行 Touch 任务。
+        已完成生成项目“D:\\Source\\build\\CMakeFiles\\CMakeScratch\\TryCompile-uknrpt\\cmTC_33a88.vcxproj”(默认目标)的操作。
+        
+        已成功生成。
+            0 个警告
+            0 个错误
+        
+        已用时间 00:00:01.51
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/CheckIncludeFile.cmake:95 (try_compile)"
+      - "assimp/contrib/zlib/CMakeLists.txt:36 (check_include_file)"
+    checks:
+      - "Looking for stdint.h"
+    directories:
+      source: "D:/Source/build/CMakeFiles/CMakeScratch/TryCompile-wi3lya"
+      binary: "D:/Source/build/CMakeFiles/CMakeScratch/TryCompile-wi3lya"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+      CMAKE_C_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "D:/Source/assimp/cmake-modules"
+    buildResult:
+      variable: "HAVE_STDINT_H"
+      cached: true
+      stdout: |
+        Change Dir: D:/Source/build/CMakeFiles/CMakeScratch/TryCompile-wi3lya
+        
+        Run Build Command(s):E:/Vs/MSBuild/Current/Bin/MSBuild.exe cmTC_5f058.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:n && 用于 .NET Framework 的 Microsoft (R) 生成引擎版本 16.11.2+f32259642
+        版权所有(C) Microsoft Corporation。保留所有权利。
+        
+        生成启动时间为 2023/3/4 21:04:24。
+        节点 1 上的项目“D:\\Source\\build\\CMakeFiles\\CMakeScratch\\TryCompile-wi3lya\\cmTC_5f058.vcxproj”(默认目标)。
+        PrepareForBuild:
+          正在创建目录“cmTC_5f058.dir\\Debug\\”。
+          正在创建目录“D:\\Source\\build\\CMakeFiles\\CMakeScratch\\TryCompile-wi3lya\\Debug\\”。
+          正在创建目录“cmTC_5f058.dir\\Debug\\cmTC_5f058.tlog\\”。
+        InitializeBuildStatus:
+          正在创建“cmTC_5f058.dir\\Debug\\cmTC_5f058.tlog\\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+        ClCompile:
+          E:\\Vs\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_5f058.dir\\Debug\\\\" /Fd"cmTC_5f058.dir\\Debug\\vc142.pdb" /external:W3 /Gd /TC /errorReport:queue "D:\\Source\\build\\CMakeFiles\\CMakeScratch\\TryCompile-wi3lya\\CheckIncludeFile.c"
+          用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.29.30145 版
+          版权所有(C) Microsoft Corporation。保留所有权利。
+          CheckIncludeFile.c
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_5f058.dir\\Debug\\\\" /Fd"cmTC_5f058.dir\\Debug\\vc142.pdb" /external:W3 /Gd /TC /errorReport:queue "D:\\Source\\build\\CMakeFiles\\CMakeScratch\\TryCompile-wi3lya\\CheckIncludeFile.c"
+        Link:
+          E:\\Vs\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"D:\\Source\\build\\CMakeFiles\\CMakeScratch\\TryCompile-wi3lya\\Debug\\cmTC_5f058.exe" /INCREMENTAL /ILK:"cmTC_5f058.dir\\Debug\\cmTC_5f058.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/Source/build/CMakeFiles/CMakeScratch/TryCompile-wi3lya/Debug/cmTC_5f058.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/Source/build/CMakeFiles/CMakeScratch/TryCompile-wi3lya/Debug/cmTC_5f058.lib" /MACHINE:X64  /machine:x64 cmTC_5f058.dir\\Debug\\CheckIncludeFile.obj
+          cmTC_5f058.vcxproj -> D:\\Source\\build\\CMakeFiles\\CMakeScratch\\TryCompile-wi3lya\\Debug\\cmTC_5f058.exe
+        FinalizeBuildStatus:
+          正在删除文件“cmTC_5f058.dir\\Debug\\cmTC_5f058.tlog\\unsuccessfulbuild”。
+          正在对“cmTC_5f058.dir\\Debug\\cmTC_5f058.tlog\\cmTC_5f058.lastbuildstate”执行 Touch 任务。
+        已完成生成项目“D:\\Source\\build\\CMakeFiles\\CMakeScratch\\TryCompile-wi3lya\\cmTC_5f058.vcxproj”(默认目标)的操作。
+        
+        已成功生成。
+            0 个警告
+            0 个错误
+        
+        已用时间 00:00:01.37
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/CheckIncludeFile.cmake:95 (try_compile)"
+      - "assimp/contrib/zlib/CMakeLists.txt:37 (check_include_file)"
+    checks:
+      - "Looking for stddef.h"
+    directories:
+      source: "D:/Source/build/CMakeFiles/CMakeScratch/TryCompile-ttz0v1"
+      binary: "D:/Source/build/CMakeFiles/CMakeScratch/TryCompile-ttz0v1"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+      CMAKE_C_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "D:/Source/assimp/cmake-modules"
+    buildResult:
+      variable: "HAVE_STDDEF_H"
+      cached: true
+      stdout: |
+        Change Dir: D:/Source/build/CMakeFiles/CMakeScratch/TryCompile-ttz0v1
+        
+        Run Build Command(s):E:/Vs/MSBuild/Current/Bin/MSBuild.exe cmTC_8cf41.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:n && 用于 .NET Framework 的 Microsoft (R) 生成引擎版本 16.11.2+f32259642
+        版权所有(C) Microsoft Corporation。保留所有权利。
+        
+        生成启动时间为 2023/3/4 21:04:25。
+        节点 1 上的项目“D:\\Source\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ttz0v1\\cmTC_8cf41.vcxproj”(默认目标)。
+        PrepareForBuild:
+          正在创建目录“cmTC_8cf41.dir\\Debug\\”。
+          正在创建目录“D:\\Source\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ttz0v1\\Debug\\”。
+          正在创建目录“cmTC_8cf41.dir\\Debug\\cmTC_8cf41.tlog\\”。
+        InitializeBuildStatus:
+          正在创建“cmTC_8cf41.dir\\Debug\\cmTC_8cf41.tlog\\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+        ClCompile:
+          E:\\Vs\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_8cf41.dir\\Debug\\\\" /Fd"cmTC_8cf41.dir\\Debug\\vc142.pdb" /external:W3 /Gd /TC /errorReport:queue "D:\\Source\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ttz0v1\\CheckIncludeFile.c"
+          用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.29.30145 版
+          版权所有(C) Microsoft Corporation。保留所有权利。
+          CheckIncludeFile.c
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_8cf41.dir\\Debug\\\\" /Fd"cmTC_8cf41.dir\\Debug\\vc142.pdb" /external:W3 /Gd /TC /errorReport:queue "D:\\Source\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ttz0v1\\CheckIncludeFile.c"
+        Link:
+          E:\\Vs\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"D:\\Source\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ttz0v1\\Debug\\cmTC_8cf41.exe" /INCREMENTAL /ILK:"cmTC_8cf41.dir\\Debug\\cmTC_8cf41.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/Source/build/CMakeFiles/CMakeScratch/TryCompile-ttz0v1/Debug/cmTC_8cf41.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/Source/build/CMakeFiles/CMakeScratch/TryCompile-ttz0v1/Debug/cmTC_8cf41.lib" /MACHINE:X64  /machine:x64 cmTC_8cf41.dir\\Debug\\CheckIncludeFile.obj
+          cmTC_8cf41.vcxproj -> D:\\Source\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ttz0v1\\Debug\\cmTC_8cf41.exe
+        FinalizeBuildStatus:
+          正在删除文件“cmTC_8cf41.dir\\Debug\\cmTC_8cf41.tlog\\unsuccessfulbuild”。
+          正在对“cmTC_8cf41.dir\\Debug\\cmTC_8cf41.tlog\\cmTC_8cf41.lastbuildstate”执行 Touch 任务。
+        已完成生成项目“D:\\Source\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ttz0v1\\cmTC_8cf41.vcxproj”(默认目标)的操作。
+        
+        已成功生成。
+            0 个警告
+            0 个错误
+        
+        已用时间 00:00:01.35
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/CheckTypeSize.cmake:148 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/CheckTypeSize.cmake:273 (__check_type_size_impl)"
+      - "assimp/contrib/zlib/CMakeLists.txt:55 (check_type_size)"
+    checks:
+      - "Check size of off64_t"
+    directories:
+      source: "D:/Source/build/CMakeFiles/CMakeScratch/TryCompile-smv8ty"
+      binary: "D:/Source/build/CMakeFiles/CMakeScratch/TryCompile-smv8ty"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+      CMAKE_C_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "D:/Source/assimp/cmake-modules"
+    buildResult:
+      variable: "HAVE_OFF64_T"
+      cached: true
+      stdout: |
+        Change Dir: D:/Source/build/CMakeFiles/CMakeScratch/TryCompile-smv8ty
+        
+        Run Build Command(s):E:/Vs/MSBuild/Current/Bin/MSBuild.exe cmTC_5f6ac.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:n && 用于 .NET Framework 的 Microsoft (R) 生成引擎版本 16.11.2+f32259642
+        版权所有(C) Microsoft Corporation。保留所有权利。
+        
+        生成启动时间为 2023/3/4 21:04:27。
+        节点 1 上的项目“D:\\Source\\build\\CMakeFiles\\CMakeScratch\\TryCompile-smv8ty\\cmTC_5f6ac.vcxproj”(默认目标)。
+        PrepareForBuild:
+          正在创建目录“cmTC_5f6ac.dir\\Debug\\”。
+          正在创建目录“D:\\Source\\build\\CMakeFiles\\CMakeScratch\\TryCompile-smv8ty\\Debug\\”。
+          正在创建目录“cmTC_5f6ac.dir\\Debug\\cmTC_5f6ac.tlog\\”。
+        InitializeBuildStatus:
+          正在创建“cmTC_5f6ac.dir\\Debug\\cmTC_5f6ac.tlog\\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+        ClCompile:
+          E:\\Vs\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _LARGEFILE64_SOURCE=1 /D HAVE_SYS_TYPES_H /D HAVE_STDINT_H /D HAVE_STDDEF_H /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_5f6ac.dir\\Debug\\\\" /Fd"cmTC_5f6ac.dir\\Debug\\vc142.pdb" /external:W3 /Gd /TC /errorReport:queue "D:\\Source\\build\\CMakeFiles\\CMakeScratch\\TryCompile-smv8ty\\OFF64_T.c"
+          用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.29.30145 版
+          版权所有(C) Microsoft Corporation。保留所有权利。
+          OFF64_T.c
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _LARGEFILE64_SOURCE=1 /D HAVE_SYS_TYPES_H /D HAVE_STDINT_H /D HAVE_STDDEF_H /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_5f6ac.dir\\Debug\\\\" /Fd"cmTC_5f6ac.dir\\Debug\\vc142.pdb" /external:W3 /Gd /TC /errorReport:queue "D:\\Source\\build\\CMakeFiles\\CMakeScratch\\TryCompile-smv8ty\\OFF64_T.c"
+        D:\\Source\\build\\CMakeFiles\\CMakeScratch\\TryCompile-smv8ty\\OFF64_T.c(29,12): error C2065: “off64_t”: 未声明的标识符 [D:\\Source\\build\\CMakeFiles\\CMakeScratch\\TryCompile-smv8ty\\cmTC_5f6ac.vcxproj]
+        D:\\Source\\build\\CMakeFiles\\CMakeScratch\\TryCompile-smv8ty\\OFF64_T.c(30,12): error C2065: “off64_t”: 未声明的标识符 [D:\\Source\\build\\CMakeFiles\\CMakeScratch\\TryCompile-smv8ty\\cmTC_5f6ac.vcxproj]
+        D:\\Source\\build\\CMakeFiles\\CMakeScratch\\TryCompile-smv8ty\\OFF64_T.c(31,12): error C2065: “off64_t”: 未声明的标识符 [D:\\Source\\build\\CMakeFiles\\CMakeScratch\\TryCompile-smv8ty\\cmTC_5f6ac.vcxproj]
+        D:\\Source\\build\\CMakeFiles\\CMakeScratch\\TryCompile-smv8ty\\OFF64_T.c(32,12): error C2065: “off64_t”: 未声明的标识符 [D:\\Source\\build\\CMakeFiles\\CMakeScratch\\TryCompile-smv8ty\\cmTC_5f6ac.vcxproj]
+        D:\\Source\\build\\CMakeFiles\\CMakeScratch\\TryCompile-smv8ty\\OFF64_T.c(33,12): error C2065: “off64_t”: 未声明的标识符 [D:\\Source\\build\\CMakeFiles\\CMakeScratch\\TryCompile-smv8ty\\cmTC_5f6ac.vcxproj]
+        已完成生成项目“D:\\Source\\build\\CMakeFiles\\CMakeScratch\\TryCompile-smv8ty\\cmTC_5f6ac.vcxproj”(默认目标)的操作 - 失败。
+        
+        生成失败。
+        
+        “D:\\Source\\build\\CMakeFiles\\CMakeScratch\\TryCompile-smv8ty\\cmTC_5f6ac.vcxproj”(默认目标) (1) ->
+        (ClCompile 目标) -> 
+          D:\\Source\\build\\CMakeFiles\\CMakeScratch\\TryCompile-smv8ty\\OFF64_T.c(29,12): error C2065: “off64_t”: 未声明的标识符 [D:\\Source\\build\\CMakeFiles\\CMakeScratch\\TryCompile-smv8ty\\cmTC_5f6ac.vcxproj]
+          D:\\Source\\build\\CMakeFiles\\CMakeScratch\\TryCompile-smv8ty\\OFF64_T.c(30,12): error C2065: “off64_t”: 未声明的标识符 [D:\\Source\\build\\CMakeFiles\\CMakeScratch\\TryCompile-smv8ty\\cmTC_5f6ac.vcxproj]
+          D:\\Source\\build\\CMakeFiles\\CMakeScratch\\TryCompile-smv8ty\\OFF64_T.c(31,12): error C2065: “off64_t”: 未声明的标识符 [D:\\Source\\build\\CMakeFiles\\CMakeScratch\\TryCompile-smv8ty\\cmTC_5f6ac.vcxproj]
+          D:\\Source\\build\\CMakeFiles\\CMakeScratch\\TryCompile-smv8ty\\OFF64_T.c(32,12): error C2065: “off64_t”: 未声明的标识符 [D:\\Source\\build\\CMakeFiles\\CMakeScratch\\TryCompile-smv8ty\\cmTC_5f6ac.vcxproj]
+          D:\\Source\\build\\CMakeFiles\\CMakeScratch\\TryCompile-smv8ty\\OFF64_T.c(33,12): error C2065: “off64_t”: 未声明的标识符 [D:\\Source\\build\\CMakeFiles\\CMakeScratch\\TryCompile-smv8ty\\cmTC_5f6ac.vcxproj]
+        
+            0 个警告
+            5 个错误
+        
+        已用时间 00:00:01.03
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/CheckFunctionExists.cmake:91 (try_compile)"
+      - "assimp/contrib/zlib/CMakeLists.txt:64 (check_function_exists)"
+    checks:
+      - "Looking for fseeko"
+    directories:
+      source: "D:/Source/build/CMakeFiles/CMakeScratch/TryCompile-oej8q7"
+      binary: "D:/Source/build/CMakeFiles/CMakeScratch/TryCompile-oej8q7"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+      CMAKE_C_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "D:/Source/assimp/cmake-modules"
+    buildResult:
+      variable: "HAVE_FSEEKO"
+      cached: true
+      stdout: |
+        Change Dir: D:/Source/build/CMakeFiles/CMakeScratch/TryCompile-oej8q7
+        
+        Run Build Command(s):E:/Vs/MSBuild/Current/Bin/MSBuild.exe cmTC_e103c.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:n && 用于 .NET Framework 的 Microsoft (R) 生成引擎版本 16.11.2+f32259642
+        版权所有(C) Microsoft Corporation。保留所有权利。
+        
+        生成启动时间为 2023/3/4 21:04:29。
+        节点 1 上的项目“D:\\Source\\build\\CMakeFiles\\CMakeScratch\\TryCompile-oej8q7\\cmTC_e103c.vcxproj”(默认目标)。
+        PrepareForBuild:
+          正在创建目录“cmTC_e103c.dir\\Debug\\”。
+          正在创建目录“D:\\Source\\build\\CMakeFiles\\CMakeScratch\\TryCompile-oej8q7\\Debug\\”。
+          正在创建目录“cmTC_e103c.dir\\Debug\\cmTC_e103c.tlog\\”。
+        InitializeBuildStatus:
+          正在创建“cmTC_e103c.dir\\Debug\\cmTC_e103c.tlog\\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+        ClCompile:
+          E:\\Vs\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=fseeko /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_e103c.dir\\Debug\\\\" /Fd"cmTC_e103c.dir\\Debug\\vc142.pdb" /external:W3 /Gd /TC /errorReport:queue "D:\\Source\\build\\CMakeFiles\\CMakeScratch\\TryCompile-oej8q7\\CheckFunctionExists.c"
+          用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.29.30145 版
+          版权所有(C) Microsoft Corporation。保留所有权利。
+          CheckFunctionExists.c
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=fseeko /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_e103c.dir\\Debug\\\\" /Fd"cmTC_e103c.dir\\Debug\\vc142.pdb" /external:W3 /Gd /TC /errorReport:queue "D:\\Source\\build\\CMakeFiles\\CMakeScratch\\TryCompile-oej8q7\\CheckFunctionExists.c"
+        Link:
+          E:\\Vs\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"D:\\Source\\build\\CMakeFiles\\CMakeScratch\\TryCompile-oej8q7\\Debug\\cmTC_e103c.exe" /INCREMENTAL /ILK:"cmTC_e103c.dir\\Debug\\cmTC_e103c.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/Source/build/CMakeFiles/CMakeScratch/TryCompile-oej8q7/Debug/cmTC_e103c.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/Source/build/CMakeFiles/CMakeScratch/TryCompile-oej8q7/Debug/cmTC_e103c.lib" /MACHINE:X64  /machine:x64 cmTC_e103c.dir\\Debug\\CheckFunctionExists.obj
+        CheckFunctionExists.obj : error LNK2019: 无法解析的外部符号 fseeko，函数 main 中引用了该符号 [D:\\Source\\build\\CMakeFiles\\CMakeScratch\\TryCompile-oej8q7\\cmTC_e103c.vcxproj]
+        D:\\Source\\build\\CMakeFiles\\CMakeScratch\\TryCompile-oej8q7\\Debug\\cmTC_e103c.exe : fatal error LNK1120: 1 个无法解析的外部命令 [D:\\Source\\build\\CMakeFiles\\CMakeScratch\\TryCompile-oej8q7\\cmTC_e103c.vcxproj]
+        已完成生成项目“D:\\Source\\build\\CMakeFiles\\CMakeScratch\\TryCompile-oej8q7\\cmTC_e103c.vcxproj”(默认目标)的操作 - 失败。
+        
+        生成失败。
+        
+        “D:\\Source\\build\\CMakeFiles\\CMakeScratch\\TryCompile-oej8q7\\cmTC_e103c.vcxproj”(默认目标) (1) ->
+        (Link 目标) -> 
+          CheckFunctionExists.obj : error LNK2019: 无法解析的外部符号 fseeko，函数 main 中引用了该符号 [D:\\Source\\build\\CMakeFiles\\CMakeScratch\\TryCompile-oej8q7\\cmTC_e103c.vcxproj]
+          D:\\Source\\build\\CMakeFiles\\CMakeScratch\\TryCompile-oej8q7\\Debug\\cmTC_e103c.exe : fatal error LNK1120: 1 个无法解析的外部命令 [D:\\Source\\build\\CMakeFiles\\CMakeScratch\\TryCompile-oej8q7\\cmTC_e103c.vcxproj]
+        
+            0 个警告
+            2 个错误
+        
+        已用时间 00:00:01.46
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/CheckIncludeFile.cmake:95 (try_compile)"
+      - "assimp/contrib/zlib/CMakeLists.txt:72 (check_include_file)"
+    checks:
+      - "Looking for unistd.h"
+    directories:
+      source: "D:/Source/build/CMakeFiles/CMakeScratch/TryCompile-qh6hdr"
+      binary: "D:/Source/build/CMakeFiles/CMakeScratch/TryCompile-qh6hdr"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+      CMAKE_C_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "D:/Source/assimp/cmake-modules"
+    buildResult:
+      variable: "Z_HAVE_UNISTD_H"
+      cached: true
+      stdout: |
+        Change Dir: D:/Source/build/CMakeFiles/CMakeScratch/TryCompile-qh6hdr
+        
+        Run Build Command(s):E:/Vs/MSBuild/Current/Bin/MSBuild.exe cmTC_0855e.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:n && 用于 .NET Framework 的 Microsoft (R) 生成引擎版本 16.11.2+f32259642
+        版权所有(C) Microsoft Corporation。保留所有权利。
+        
+        生成启动时间为 2023/3/4 21:04:31。
+        节点 1 上的项目“D:\\Source\\build\\CMakeFiles\\CMakeScratch\\TryCompile-qh6hdr\\cmTC_0855e.vcxproj”(默认目标)。
+        PrepareForBuild:
+          正在创建目录“cmTC_0855e.dir\\Debug\\”。
+          正在创建目录“D:\\Source\\build\\CMakeFiles\\CMakeScratch\\TryCompile-qh6hdr\\Debug\\”。
+          正在创建目录“cmTC_0855e.dir\\Debug\\cmTC_0855e.tlog\\”。
+        InitializeBuildStatus:
+          正在创建“cmTC_0855e.dir\\Debug\\cmTC_0855e.tlog\\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+        ClCompile:
+          E:\\Vs\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_0855e.dir\\Debug\\\\" /Fd"cmTC_0855e.dir\\Debug\\vc142.pdb" /external:W3 /Gd /TC /errorReport:queue "D:\\Source\\build\\CMakeFiles\\CMakeScratch\\TryCompile-qh6hdr\\CheckIncludeFile.c"
+          用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.29.30145 版
+          版权所有(C) Microsoft Corporation。保留所有权利。
+          CheckIncludeFile.c
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_0855e.dir\\Debug\\\\" /Fd"cmTC_0855e.dir\\Debug\\vc142.pdb" /external:W3 /Gd /TC /errorReport:queue "D:\\Source\\build\\CMakeFiles\\CMakeScratch\\TryCompile-qh6hdr\\CheckIncludeFile.c"
+        Link:
+          E:\\Vs\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"D:\\Source\\build\\CMakeFiles\\CMakeScratch\\TryCompile-qh6hdr\\Debug\\cmTC_0855e.exe" /INCREMENTAL /ILK:"cmTC_0855e.dir\\Debug\\cmTC_0855e.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/Source/build/CMakeFiles/CMakeScratch/TryCompile-qh6hdr/Debug/cmTC_0855e.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/Source/build/CMakeFiles/CMakeScratch/TryCompile-qh6hdr/Debug/cmTC_0855e.lib" /MACHINE:X64  /machine:x64 cmTC_0855e.dir\\Debug\\CheckIncludeFile.obj
+          cmTC_0855e.vcxproj -> D:\\Source\\build\\CMakeFiles\\CMakeScratch\\TryCompile-qh6hdr\\Debug\\cmTC_0855e.exe
+        FinalizeBuildStatus:
+          正在删除文件“cmTC_0855e.dir\\Debug\\cmTC_0855e.tlog\\unsuccessfulbuild”。
+          正在对“cmTC_0855e.dir\\Debug\\cmTC_0855e.tlog\\cmTC_0855e.lastbuildstate”执行 Touch 任务。
+        已完成生成项目“D:\\Source\\build\\CMakeFiles\\CMakeScratch\\TryCompile-qh6hdr\\cmTC_0855e.vcxproj”(默认目标)的操作。
+        
+        已成功生成。
+            0 个警告
+            0 个错误
+        
+        已用时间 00:00:01.51
+        
+      exitCode: 0
+...

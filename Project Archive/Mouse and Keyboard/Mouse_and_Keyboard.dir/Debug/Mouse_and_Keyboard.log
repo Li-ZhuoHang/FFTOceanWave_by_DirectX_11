@@ -1,0 +1,14 @@
+﻿  1>Building Custom Rule D:/Source/Project Archive/Mouse and Keyboard/CMakeLists.txt
+  compilation object save succeeded; see D:\Source\build\Project Archive\Mouse and Keyboard\HLSL\Cube_PS.cso
+  compilation object save succeeded; see D:\Source\build\Project Archive\Mouse and Keyboard\HLSL\Cube_VS.cso
+  CpuTimer.cpp
+  DXTrace.cpp
+  GameApp.cpp
+  Keyboard.cpp
+  Main.cpp
+  Mouse.cpp
+  d3dApp.cpp
+  d3dUtil.cpp
+  正在生成代码...
+    正在创建库 D:/Source/build/Project Archive/Mouse and Keyboard/Debug/Mouse and Keyboard.lib 和对象 D:/Source/build/Project Archive/Mouse and Keyboard/Debug/Mouse and Keyboard.exp
+  Mouse_and_Keyboard.vcxproj -> D:\Source\build\Project Archive\Mouse and Keyboard\Mouse and Keyboard.exe

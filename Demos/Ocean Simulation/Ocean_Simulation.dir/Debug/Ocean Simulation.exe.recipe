@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project>
+  <ProjectOutputs>
+    <ProjectOutput>
+      <FullPath>D:\Source\build\x64\Debug\ZERO_CHECK</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>D:\Source\build\assimp\bin\Debug\assimp-vc142-mt.dll</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>D:\Source\build\Demos\Ocean Simulation\Ocean Simulation.exe</FullPath>
+    </ProjectOutput>
+  </ProjectOutputs>
+  <ContentFiles>
+    <ContentFile>
+      <FullPath>D:\Source\build\Demos\Ocean Simulation\Shaders\AfterProcess_CS.cso</FullPath>
+    </ContentFile>
+    <ContentFile>
+      <FullPath>D:\Source\build\Demos\Ocean Simulation\Shaders\Basic_PS.cso</FullPath>
+    </ContentFile>
+    <ContentFile>
+      <FullPath>D:\Source\build\Demos\Ocean Simulation\Shaders\Basic_VS.cso</FullPath>
+    </ContentFile>
+    <ContentFile>
+      <FullPath>D:\Source\build\Demos\Ocean Simulation\Shaders\FFT_CS.cso</FullPath>
+    </ContentFile>
+    <ContentFile>
+      <FullPath>D:\Source\build\Demos\Ocean Simulation\Shaders\GerstnerWave_CS.cso</FullPath>
+    </ContentFile>
+    <ContentFile>
+      <FullPath>D:\Source\build\Demos\Ocean Simulation\Shaders\OceanPrecompute_CS.cso</FullPath>
+    </ContentFile>
+    <ContentFile>
+      <FullPath>D:\Source\build\Demos\Ocean Simulation\Shaders\OceanUpdate_CS.cso</FullPath>
+    </ContentFile>
+    <ContentFile>
+      <FullPath>D:\Source\build\Demos\Ocean Simulation\Shaders\PostProcess_CS.cso</FullPath>
+    </ContentFile>
+    <ContentFile>
+      <FullPath>D:\Source\build\Demos\Ocean Simulation\Shaders\WavesDisturb_CS.cso</FullPath>
+    </ContentFile>
+    <ContentFile>
+      <FullPath>D:\Source\build\Demos\Ocean Simulation\Shaders\WavesUpdate_CS.cso</FullPath>
+    </ContentFile>
+  </ContentFiles>
+  <SatelliteDlls />
+  <NonRecipeFileRefs />
+</Project>

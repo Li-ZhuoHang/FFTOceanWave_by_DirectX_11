@@ -1,0 +1,32 @@
+﻿E:\Vs\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets(513,5): warning MSB8028: 中间目录(Ocean_Simulation.dir\Debug\)包含从另一个项目(Ocean_Simulation.vcxproj)共享的文件。   这会导致错误的清除和重新生成行为。
+  1>Building Custom Rule D:/Source/Demos/Ocean Simulation/CMakeLists.txt
+  compilation object save succeeded; see D:\Source\build\Demos\Ocean Simulation\Shaders\AfterProcess_CS.cso
+  compilation object save succeeded; see D:\Source\build\Demos\Ocean Simulation\Shaders\Basic_PS.cso
+D:\Source\Demos\Ocean Simulation\Shaders\Basic_VS.hlsl(24,9-99): warning X3206: implicit truncation of vector type
+  
+  compilation object save succeeded; see D:\Source\build\Demos\Ocean Simulation\Shaders\Basic_VS.cso
+  compilation object save succeeded; see D:\Source\build\Demos\Ocean Simulation\Shaders\FFT_CS.cso
+  compilation object save succeeded; see D:\Source\build\Demos\Ocean Simulation\Shaders\GerstnerWave_CS.cso
+D:\Source\Demos\Ocean Simulation\Shaders\OceanPrecompute_CS.hlsl(13,5): warning X4000: use of potentially uninitialized variable (betaS)
+  
+  compilation object save succeeded; see D:\Source\build\Demos\Ocean Simulation\Shaders\OceanPrecompute_CS.cso
+D:\Source\Demos\Ocean Simulation\Shaders\OceanUpdate_CS.hlsl(56,17-40): warning X3081: potentially unintended use of a comma expression in a variable initializer
+  
+  compilation object save succeeded; see D:\Source\build\Demos\Ocean Simulation\Shaders\OceanUpdate_CS.cso
+  compilation object save succeeded; see D:\Source\build\Demos\Ocean Simulation\Shaders\PostProcess_CS.cso
+  compilation object save succeeded; see D:\Source\build\Demos\Ocean Simulation\Shaders\WavesDisturb_CS.cso
+D:\Source\Demos\Ocean Simulation\Shaders\WavesUpdate_CS.hlsl(80,14): warning X3078: 'i': loop control variable conflicts with a previous declaration in the outer scope; most recent declaration will be used
+D:\Source\Demos\Ocean Simulation\Shaders\WavesUpdate_CS.hlsl(88,14): warning X3078: 'i': loop control variable conflicts with a previous declaration in the outer scope; most recent declaration will be used
+D:\Source\Demos\Ocean Simulation\Shaders\WavesUpdate_CS.hlsl(100,14): warning X3078: 'i': loop control variable conflicts with a previous declaration in the outer scope; most recent declaration will be used
+D:\Source\Demos\Ocean Simulation\Shaders\WavesUpdate_CS.hlsl(72,9-12): warning X3550: array reference cannot be used as an l-value; not natively addressable, forcing loop to unroll
+D:\Source\Demos\Ocean Simulation\Shaders\WavesUpdate_CS.hlsl(82,9-15): warning X3550: array reference cannot be used as an l-value; not natively addressable, forcing loop to unroll
+  
+  compilation object save succeeded; see D:\Source\build\Demos\Ocean Simulation\Shaders\WavesUpdate_CS.cso
+  BasicEffect.cpp
+  GameApp.cpp
+D:\Source\Demos\Ocean Simulation\GameApp.cpp(126,30): warning C4305: “初始化”: 从“double”到“float”截断
+D:\Source\Demos\Ocean Simulation\GameApp.cpp(236,71): warning C4305: “参数”: 从“double”到“float”截断
+  Main.cpp
+  Waves.cpp
+  正在生成代码...
+  Ocean_Simulation.vcxproj -> D:\Source\build\Demos\Ocean Simulation\Ocean Simulation.exe

@@ -1,0 +1,232 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{F66A35D3-C48D-350B-AA62-2FD117BEF57C}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <WindowsTargetPlatformVersion>10.0.18362.0</WindowsTargetPlatformVersion>
+    <Platform>x64</Platform>
+    <ProjectName>Common</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\Source\build\Demos\Common\Debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Common.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Common</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\Source\build\Demos\Common\Release\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Common.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Common</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.lib</TargetExt>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\Source\Demos\Common\.;D:\Source\ImGui\.;D:\Source\assimp\code\..\include;D:\Source\build\assimp\code\..\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /utf-8</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;UNICODE;_UNICODE;CMAKE_INTDIR="Debug"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_DEBUG;_WINDOWS;UNICODE;_UNICODE;CMAKE_INTDIR=\"Debug\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\Source\Demos\Common\.;D:\Source\ImGui\.;D:\Source\assimp\code\..\include;D:\Source\build\assimp\code\..\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\Source\Demos\Common\.;D:\Source\ImGui\.;D:\Source\assimp\code\..\include;D:\Source\build\assimp\code\..\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\Source\Demos\Common\.;D:\Source\ImGui\.;D:\Source\assimp\code\..\include;D:\Source\build\assimp\code\..\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /utf-8</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;UNICODE;_UNICODE;CMAKE_INTDIR="Release"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;UNICODE;_UNICODE;CMAKE_INTDIR=\"Release\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\Source\Demos\Common\.;D:\Source\ImGui\.;D:\Source\assimp\code\..\include;D:\Source\build\assimp\code\..\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\Source\Demos\Common\.;D:\Source\ImGui\.;D:\Source\assimp\code\..\include;D:\Source\build\assimp\code\..\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\Source\Demos\Common\CMakeLists.txt">
+      <UseUtf8Encoding>Always</UseUtf8Encoding>
+      <BuildInParallel Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</BuildInParallel>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule D:/Source/Demos/Common/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SD:/Source -BD:/Source/build --check-stamp-file D:/Source/build/Demos/Common/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\Source\build\Demos\Common\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <BuildInParallel Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</BuildInParallel>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule D:/Source/Demos/Common/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SD:/Source -BD:/Source/build --check-stamp-file D:/Source/build/Demos/Common/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\Source\build\Demos\Common\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="D:\Source\Demos\Common\Buffer.cpp" />
+    <ClCompile Include="D:\Source\Demos\Common\Camera.cpp" />
+    <ClCompile Include="D:\Source\Demos\Common\CameraController.cpp" />
+    <ClCompile Include="D:\Source\Demos\Common\Collision.cpp" />
+    <ClCompile Include="D:\Source\Demos\Common\CpuTimer.cpp" />
+    <ClCompile Include="D:\Source\Demos\Common\DDSTextureLoader11.cpp" />
+    <ClCompile Include="D:\Source\Demos\Common\DXTrace.cpp" />
+    <ClCompile Include="D:\Source\Demos\Common\DebugLayer.cpp" />
+    <ClCompile Include="D:\Source\Demos\Common\EffectHelper.cpp" />
+    <ClCompile Include="D:\Source\Demos\Common\GameObject.cpp" />
+    <ClCompile Include="D:\Source\Demos\Common\Geometry.cpp" />
+    <ClCompile Include="D:\Source\Demos\Common\GpuTimer.cpp" />
+    <ClCompile Include="D:\Source\Demos\Common\ImGuiLog.cpp" />
+    <ClCompile Include="D:\Source\Demos\Common\ModelManager.cpp" />
+    <ClCompile Include="D:\Source\Demos\Common\RenderStates.cpp" />
+    <ClCompile Include="D:\Source\Demos\Common\ScreenGrab11.cpp" />
+    <ClCompile Include="D:\Source\Demos\Common\Texture2D.cpp" />
+    <ClCompile Include="D:\Source\Demos\Common\TextureManager.cpp" />
+    <ClCompile Include="D:\Source\Demos\Common\WICTextureLoader11.cpp" />
+    <ClCompile Include="D:\Source\Demos\Common\d3dApp.cpp" />
+    <ClInclude Include="D:\Source\Demos\Common\Buffer.h" />
+    <ClInclude Include="D:\Source\Demos\Common\Camera.h" />
+    <ClInclude Include="D:\Source\Demos\Common\CameraController.h" />
+    <ClInclude Include="D:\Source\Demos\Common\Collision.h" />
+    <ClInclude Include="D:\Source\Demos\Common\CpuTimer.h" />
+    <ClInclude Include="D:\Source\Demos\Common\D3DFormat.h" />
+    <ClInclude Include="D:\Source\Demos\Common\DDSTextureLoader11.h" />
+    <ClInclude Include="D:\Source\Demos\Common\DXTrace.h" />
+    <ClInclude Include="D:\Source\Demos\Common\DebugLayer.h" />
+    <ClInclude Include="D:\Source\Demos\Common\EffectHelper.h" />
+    <ClInclude Include="D:\Source\Demos\Common\GameObject.h" />
+    <ClInclude Include="D:\Source\Demos\Common\Geometry.h" />
+    <ClInclude Include="D:\Source\Demos\Common\GpuTimer.h" />
+    <ClInclude Include="D:\Source\Demos\Common\IEffect.h" />
+    <ClInclude Include="D:\Source\Demos\Common\ImGuiLog.h" />
+    <ClInclude Include="D:\Source\Demos\Common\LightHelper.h" />
+    <ClInclude Include="D:\Source\Demos\Common\Material.h" />
+    <ClInclude Include="D:\Source\Demos\Common\MeshData.h" />
+    <ClInclude Include="D:\Source\Demos\Common\ModelManager.h" />
+    <ClInclude Include="D:\Source\Demos\Common\Property.h" />
+    <ClInclude Include="D:\Source\Demos\Common\RenderStates.h" />
+    <ClInclude Include="D:\Source\Demos\Common\ScreenGrab11.h" />
+    <ClInclude Include="D:\Source\Demos\Common\Texture2D.h" />
+    <ClInclude Include="D:\Source\Demos\Common\TextureManager.h" />
+    <ClInclude Include="D:\Source\Demos\Common\Transform.h" />
+    <ClInclude Include="D:\Source\Demos\Common\Vertex.h" />
+    <ClInclude Include="D:\Source\Demos\Common\WICTextureLoader11.h" />
+    <ClInclude Include="D:\Source\Demos\Common\WinMin.h" />
+    <ClInclude Include="D:\Source\Demos\Common\XUtil.h" />
+    <ClInclude Include="D:\Source\Demos\Common\d3dApp.h" />
+    <ClInclude Include="D:\Source\Demos\Common\stb_image.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="D:\Source\build\ZERO_CHECK.vcxproj">
+      <Project>{6505D0D7-F180-314C-8D77-44380A7F255F}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\Source\build\ImGui\ImGui.vcxproj">
+      <Project>{989B95D0-71E8-392D-91FE-BF55F413044C}</Project>
+      <Name>ImGui</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Source\build\assimp\code\assimp.vcxproj">
+      <Project>{BC5DEB4C-DFCC-38CC-8014-267455F899B1}</Project>
+      <Name>assimp</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Source\build\assimp\contrib\zlib\zlibstatic.vcxproj">
+      <Project>{B50356F0-D343-38EE-8D6D-93370CC3BFCD}</Project>
+      <Name>zlibstatic</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
