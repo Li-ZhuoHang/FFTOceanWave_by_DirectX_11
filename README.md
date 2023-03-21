@@ -7,6 +7,8 @@
 
 ### 先看效果：
 
+视频效果：[2024技术美术暑假实习生作品集_哔哩哔哩bilibili](https://www.bilibili.com/video/BV11x4y1P7YM/)
+
 ##### FFTOceanWave_Fog_Wireframe:
 
 ![Waves_Fog_Wireframe](README.assets/Waves_Fog_Wireframe.gif)
